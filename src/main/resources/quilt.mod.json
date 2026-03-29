@@ -2,11 +2,11 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "io.github.liamacee",
-		"id": "test_mod",
+		"id": "diamonite",
 		"version": "${version}",
 		"metadata": {
-			"name": "Test Mod",
-			"description": "A mod created for testing purposes.",
+			"name": "Diamonite",
+			"description": "This mod adds an ore called Diamonite (better than netherite) and some other stuff.",
 			"contributors": {
 				"Liamacee": "Developer"
 			},
@@ -19,7 +19,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "io.github.liamacee.test_mod.TestMod"
+			"init": "io.github.liamacee.diamonite.Diamonite"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "test_mod.mixins.json"
+	"mixin": "diamonite.mixins.json"
 }
